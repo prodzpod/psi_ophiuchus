@@ -1,0 +1,43 @@
+modLoader="javafml" 
+loaderVersion="[31,)" # This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+issueTrackerURL="http://github.com/prodzpod/ophiuchus/issues/"
+showAsResourcePack=false
+
+[[mods]] 
+modId="ophiuchus" 
+version="0.1.69" 
+displayName="Psi: Ophiuchus" 
+# updateJSONURL="http://myurl.me/" 
+displayURL="http://prodzpod.o-r.kr:8080/mods/ophiuchus"
+logoFile="ophiuchus.png"
+credits="\n    §dVazkii§7 for §fP§bs§9i\n    §9Kamefrede§7 for §fR§aa§2ndom §fP§bS§9I§1deas\n    §6Wiiv§7, §eWireSegal§7, §9Kamefrede§7, §cWillewillus§7 for co-authoring Psi"
+authors="§c§op§6§or§e§oo§a§od§b§oz§9§op§5§oo§d§od" 
+description='''A general expansion add-on for §bPsi §rand §9Random PSIdeas §7(also some other psi addons and other mods)§r.'''
+
+[[dependencies.ophiuchus]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[24,)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.ophiuchus]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.13,]"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.ophiuchus]]
+    modId = "patchouli"
+    mandatory = true
+    versionRange = "[1.15.2-1.2-27,)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.ophiuchus]]
+    modId = "psi"
+    mandatory = true
+    versionRange = "[r1.2-82,)"
+    ordering = "AFTER"
+    side = "BOTH"
