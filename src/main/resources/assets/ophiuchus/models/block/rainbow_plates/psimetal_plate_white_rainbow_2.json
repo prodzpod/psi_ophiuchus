@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "side": "ophiuchus:blocks/rainbow_plates/psimetal_plate_white_rainbow_2",
+    "bottom": "psi:blocks/psimetal_plate_white",
+    "top": "psi:blocks/psimetal_plate_white"
+  }
+}

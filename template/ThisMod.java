@@ -1,4 +1,4 @@
-package kr.o_r.prodzpod.ophiuchus.util;
+package kr.o_r.prodzpod.ophiuchus.common.util;
 
 public class ThisMod {
     public static final String ID = "%MODID%";

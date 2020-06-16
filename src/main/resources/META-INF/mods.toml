@@ -5,14 +5,14 @@ showAsResourcePack=false
 
 [[mods]] 
 modId="ophiuchus" 
-version="0.1.69" 
+version="0.2.0" 
 displayName="Psi: Ophiuchus" 
 # updateJSONURL="http://myurl.me/" 
 displayURL="http://prodzpod.o-r.kr:8080/mods/ophiuchus"
 logoFile="ophiuchus.png"
 credits="\n    §dVazkii§7 for §fP§bs§9i\n    §9Kamefrede§7 for §fR§aa§2ndom §fP§bS§9I§1deas\n    §6Wiiv§7, §eWireSegal§7, §9Kamefrede§7, §cWillewillus§7 for co-authoring Psi"
 authors="§c§op§6§or§e§oo§a§od§b§oz§9§op§5§oo§d§od" 
-description='''A general expansion add-on for §bPsi §rand §9Random PSIdeas §7(also some other psi addons and other mods)§r.'''
+description='''A general expansion add-on for §bPsi §rand §9Random PSIdeas§7(for now, adds some of the functionalities rPSIdeas have) §7(also some other psi addons and other mods)§r.'''
 
 [[dependencies.ophiuchus]]
     modId = "forge"
