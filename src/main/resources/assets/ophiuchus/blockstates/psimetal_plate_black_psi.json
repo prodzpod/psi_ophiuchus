@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "offset=0": {
+      "model": "ophiuchus:block/psi_plates/psimetal_plate_black_psi_0"
+    },
+    "offset=1": {
+      "model": "ophiuchus:block/psi_plates/psimetal_plate_black_psi_1"
+    },
+    "offset=2": { "model": "ophiuchus:block/psi_plates/psimetal_plate_black_psi_0" },
+    "offset=3": { "model": "ophiuchus:block/psi_plates/psimetal_plate_black_psi_0" },
+    "offset=4": { "model": "ophiuchus:block/psi_plates/psimetal_plate_black_psi_0" },
+    "offset=5": { "model": "ophiuchus:block/psi_plates/psimetal_plate_black_psi_0" },
+    "offset=6": { "model": "ophiuchus:block/psi_plates/psimetal_plate_black_psi_0" },
+    "offset=7": { "model": "ophiuchus:block/psi_plates/psimetal_plate_black_psi_0" },
+    "offset=8": { "model": "ophiuchus:block/psi_plates/psimetal_plate_black_psi_0" }
+  }
+}

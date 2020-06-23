@@ -1,0 +1,7 @@
+{
+  "parent": "ophiuchus:item/block",
+  "textures": {
+	"layer0": "psi:blocks/psimetal_plate_white",
+	"layer1": "ophiuchus:blocks/psimetal_plate_lines"
+  }
+}

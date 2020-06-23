@@ -1,0 +1,6 @@
+{
+  "parent": "ophiuchus:block/psimetal_plate_lines_template",
+  "textures": {
+    "line": "ophiuchus:blocks/psimetal_plate_lines"
+  }
+}

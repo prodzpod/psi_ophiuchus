@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ophiuchus:block/psimetal_potato"
+    },
+    "facing=east": {
+      "model": "ophiuchus:block/psimetal_potato", "y": 90
+    },
+    "facing=south": {
+      "model": "ophiuchus:block/psimetal_potato", "y": 180
+    },
+    "facing=west": {
+      "model": "ophiuchus:block/psimetal_potato", "y": 270
+    }
+  }
+}

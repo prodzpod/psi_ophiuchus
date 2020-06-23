@@ -24,6 +24,7 @@ not part of the mod/forge stuff
 native
 daemon
 wrapper
+libs
 
 # Files from Forge MDK
 forge*changelog.txt

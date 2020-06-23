@@ -1,16 +1,19 @@
 buildscript {
     repositories {
-        maven { url = 'https://files.minecraftforge.net/maven' }
+        maven { url 'https://files.minecraftforge.net/maven' }
+        maven { url 'https://plugins.gradle.org/m2/' }
         jcenter()
         mavenCentral()
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
+        classpath "com.wynprice.cursemaven:CurseMaven:2.1.5"
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'idea'
 apply plugin: 'maven'
+apply plugin: "com.wynprice.cursemaven"
 
 def configFile = file('gradle.properties')
 def config = parseConfig(configFile)
@@ -82,8 +85,10 @@ minecraft {
     }
 }
 repositories {
+    maven { url = "https://minecraft.curseforge.com/api/maven/" }
     maven { url = "http://dvs1.progwml6.com/files/maven" }
     maven { url = "https://maven.blamejared.com/" }
+    maven { url = "https://maven.theillusivec4.top/" }
 }
 
 dependencies {
@@ -93,6 +98,9 @@ dependencies {
     runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:${config.mc}-${config.patchouli}")
     compileOnly fg.deobf("mezz.jei:jei-${config.mc}:${config.jei}:api")
     runtimeOnly fg.deobf("mezz.jei:jei-${config.mc}:${config.jei}")
+    compile     fg.deobf("curse.maven:psipherals:2984175")
+    compileOnly fg.deobf("top.theillusivec4.curios:curios:FORGE-${config.mc}-${config.curios}:api")
+    runtimeOnly fg.deobf("top.theillusivec4.curios:curios:FORGE-${config.mc}-${config.curios}")
 }
 
 sourceSets.main.resources {

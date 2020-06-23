@@ -1,8 +1,12 @@
 {
-  "parent": "block/cube_bottom_top",
+  "parent": "block/cube",
   "textures": {
-    "side": "ophiuchus:blocks/rainbow_plates/psimetal_plate_white_rainbow_5",
-    "bottom": "psi:blocks/psimetal_plate_white",
-    "top": "psi:blocks/psimetal_plate_white"
+    "particle": "#east",
+    "east" : "ophiuchus:blocks/rainbow_plates/psimetal_plate_white_rainbow_5",
+    "north": "ophiuchus:blocks/rainbow_plates/psimetal_plate_white_rainbow_6",
+    "west" : "ophiuchus:blocks/rainbow_plates/psimetal_plate_white_rainbow_6",
+    "south": "ophiuchus:blocks/rainbow_plates/psimetal_plate_white_rainbow_7",
+    "down": "psi:blocks/psimetal_plate_white",
+    "up"  : "psi:blocks/psimetal_plate_white"
   }
 }

@@ -1,0 +1,6 @@
+{
+  "multipart": [
+    {"apply": {"model": "psi:block/black_psimetal_plate" }},
+    {"apply": {"model": "ophiuchus:block/psimetal_plate_lines" }}
+  ]
+}

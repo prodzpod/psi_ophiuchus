@@ -3,6 +3,9 @@
 
   "block.ophiuchus.psimetal_plate_black_rainbow":   "Dark Psimetal Rainbow Flow Plate",
   "block.ophiuchus.psimetal_plate_white_rainbow": "Bright Psimetal Rainbow Flow Plate",
+  "block.ophiuchus.psimetal_plate_black_psi":       "Dark Psimetal Psi Flow Plate",
+  "block.ophiuchus.psimetal_plate_white_psi":     "Bright Psimetal Psi Flow Plate",
+  "block.ophiuchus.psimetal_potato":              "Psimetal Potato",
 
   "item.ophiuchus.rune_prod": "Rune of Bad Coding"
 }

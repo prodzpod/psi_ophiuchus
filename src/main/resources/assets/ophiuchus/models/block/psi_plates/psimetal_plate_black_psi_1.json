@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "#east",
+    "east" : "ophiuchus:blocks/psi_plates/psimetal_plate_black_psi_1",
+    "north": "ophiuchus:blocks/psi_plates/psimetal_plate_black_psi_0",
+    "west" : "ophiuchus:blocks/psi_plates/psimetal_plate_black_psi_1",
+    "south": "ophiuchus:blocks/psi_plates/psimetal_plate_black_psi_0",
+    "down": "psi:blocks/psimetal_plate_black",
+    "up"  : "psi:blocks/psimetal_plate_black"
+  }
+}

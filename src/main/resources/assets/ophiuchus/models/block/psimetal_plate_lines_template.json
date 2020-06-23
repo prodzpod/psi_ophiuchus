@@ -1,0 +1,14 @@
+{
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": { "texture": "#line", "tintindex": 1 },
+        "east" : { "texture": "#line", "tintindex": 1 },
+        "south": { "texture": "#line", "tintindex": 1 },
+        "west" : { "texture": "#line", "tintindex": 1 }
+      }
+    }
+  ]
+}
